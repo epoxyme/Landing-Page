@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://i.picsum.photos/id/1006/3000/2000.jpg?hmac=x83pQQ7LW1UTo8HxBcIWuRIVeN_uCg0cG6keXvNvM8g);
+            margin: 0;
+            background-position: center;
+        }
+        /* .HeaderParent{
+            padding: 0;
+            background-color: white;
+            height: 12.1vh;
+        } */
+        header{
+            display: flex;
+            justify-content: space-between;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;   
+            background-color: white;
+            margin: 0;
+            align-items: bottom;
+        }
+        .logoParent{
+            background-color: white;
+            margin-left: 50px;
+        }
+        h3{
+            padding: 6px;
+            color: black;
+            font-size: 1.5em;
+            background-color: lightblue;
+        }
+        ul {
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            list-style-type: none;
+            margin: 0 50px 0 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        li a {
+            padding: 0px 8px 0px 8px;
+            background-color: white;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .borderR{
+            border-right: 2px solid black;
+        }
+        a:hover {
+            background-color: burlywood;
+        }
+        .p1, .p2, .p3{
+            font-family: monospace;
+        }
+        .bodyText{
+            display: inline;
+            text-align: center;
+        }
+        .p1{
+            margin: 39px 0 0 0;
+            padding-top: 3em;
+            font-size: 3em;
+            font-weight: bold;
+        }
+        .p2{
+            margin: 0;
+            padding-left: 0.5em;
+            font-size: 8em;
+            color: blanchedalmond;
+            font-weight: bold;
+            letter-spacing: 0.6em;
+            opacity: 0.3;
+        }
+        .p3p{
+            padding-left: 9.5em;
+            padding-right: 9em;
+        }
+        .p3{
+            margin: 0;
+            display: flex;
+            font-size: 3em;
+            font-weight: bold;
+            background-color: rgb(168, 217, 248);
+            padding: 0em;
+        }
+        .button{
+            border-radius: 10px;
+            font-size: 15px;
+            background-color:deeppink;
+            border: none;
+            color: white;
+            padding: 20px 25px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px; 
+            cursor: pointer;
+        }
+        .button1 {
+            font-size: 20px;
+            margin-top: 8em;
+            position: absolute;
+            top: 45%;
+            left: 45%;
+        }
+    </style>
+</head>
+<body>
+    <div class="HeaderParent">
+    <header>
+        <div class="logoParent">
+            <h3> Logo </h3>
+        </div>
+        <ul>
+            <li><a class="borderR" href="#Home">Home</a></li>
+            <li><a class="borderR" href="#About">About</a></li>
+            <li><a class="borderR" href="#Service">Service</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </header>
+    </div>
+        <div class="bodyText">
+            <p class="p1"> Ambition is the first step towards</p>
+            <p class="p2"> SUCCESS </p>
+            <div class="p3p">
+                <p class="p3"> Now Avariable for Online Coaching</p>
+            </div>
+        </div>
+    </div>
+    <div class="button1">
+        <button class="button" onclick=""> Book Now </button>
+    </div>
+</body>
+</html>
